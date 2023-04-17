@@ -17,7 +17,7 @@ class DepthCalculator {
     let k=0;
     for(let i of arr){
       if(typeof i == 'object'){
-        k += deepCount(i);
+        k += calculateDepth(i);
         
       }
       k += 1;
